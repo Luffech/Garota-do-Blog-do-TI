@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Garota do Blog do TI 💅
 
-## Getting Started
+*Spotted: o diário secreto de um dev se tornando a nova elite da tecnologia. Segredos, dramas de código e o estilo impecável de Next.js e Tailwind.*
 
-First, run the development server:
+<img width="1856" height="1137" alt="image" src="https://github.com/user-attachments/assets/618cd40d-c483-43d5-b59c-c9da09ac88f8" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sobre o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Achou que conseguiria todos os segredos sem uma introdução? Este diário não é para qualquer um. É o lugar onde os bastidores da tecnologia são revelados, obviamente com o estilo impecável de Next.js e Tailwind CSS. Aqui você encontrará os aprendizados, os dramas do debug, as reclamações e os projetos que se tornam lendas. Tudo devidamente documentado, é claro.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este é um projeto de blog pessoal construído para praticar os conceitos fundamentais do Next.js App Router, componentes e estilização moderna.
 
-## Learn More
+## ✨ Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+* **Página Inicial** com listagem de todos os posts.
+* **Páginas de Post Dinâmicas** (`/posts/[slug]`) para cada entrada do blog.
+* **Página "Sobre"** estática com a descrição do projeto.
+* **Botão de Curtir Interativo**, demonstrando o uso de Client Components com estado.
+* **Design Responsivo** com foco em legibilidade e estilo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Framework:** Next.js 15 (com App Router)
+* **Linguagem:** TypeScript
+* **Estilização:** Tailwind CSS v4
+* **Ícones:** Lucide React
 
-## Deploy on Vercel
+## 🔧 Como Rodar o Projeto Localmente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para ter uma cópia do projeto rodando na sua máquina, siga os passos:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Luffech/Garota-do-Blog-do-TI.git](https://github.com/Luffech/Garota-do-Blog-do-TI.git)
+    ```
+
+2.  **Navegue até a pasta do projeto e instale as dependências:**
+    ```bash
+    cd Garota-do-Blog-do-TI
+    npm install
+    ```
+
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+Agora, abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+## 🎓 Aprendizados
+
+Este projeto foi uma jornada de aprendizado focada nos seguintes conceitos do Next.js:
+
+* Estrutura e roteamento com o **App Router**.
+* Diferença e uso prático de **Server Components vs. Client Components**.
+* Implementação de **Roteamento Dinâmico** para páginas de conteúdo variável.
+* Criação de **Layouts Compartilhados** para manter a consistência visual.
+* Configuração do **Tailwind CSS v4**, com o tema definido diretamente no arquivo CSS.
+
+---
+
+  You know you love me
+
+*XOXO.*
