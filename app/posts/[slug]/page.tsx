@@ -1,8 +1,15 @@
 import { notFound } from "next/navigation";
-import { getPostBySlug } from "@/lib/posts";
-import LikeButton from "@/components/LikeButton";
+import { getPostBySlug } from "../../../lib/posts";
+import LikeButton from "../../../components/LikeButton";
 
-export default function PostPage({ params }: { params: { slug:string } }) {
+
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export default function PostPage({ params }: Props) {
   const post = getPostBySlug(params.slug);
 
   if (!post) {
