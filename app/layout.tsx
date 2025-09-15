@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-[url('/background_blog.png')] bg-fixed bg-center bg-cover">
         <header className="flex justify-between items-center px-6 py-4 bg-white/80 backdrop-blur shadow-md sticky top-0 z-10">
           <Link href="/" className="font-bold text-lg hover:text-indigo-600 transition-colors">
-            Lufech's Blog
+            Lufech&apos;s Blog 
           </Link>
           <nav className="flex gap-6 text-sm font-medium text-stone-600">
             <Link href="/" className="hover:text-indigo-600 transition-colors">Home</Link>
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="paper">{children}</div>
         </main>
         <footer className="text-center p-6 text-sm text-stone-600">
-          <p>&copy; {new Date().getFullYear()} Lufech's Blog. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Lufech&apos;s Blog. Todos os direitos reservados.</p>
         </footer>
       </body>
     </html>
